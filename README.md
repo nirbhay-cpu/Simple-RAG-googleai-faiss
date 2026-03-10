@@ -8,6 +8,10 @@ The project loads a PDF document, processes it into smaller chunks, generates em
 
 ## ⚙️ Workflow
 
+<div align="center">
+<img src="./assets/rag_diagram.png" alt="RAG Pipeline" width="70%">
+</div><BR>
+
 1. Initialize Google AI model
 2. Load PDF document
 3. Split the document into smaller chunks
@@ -55,3 +59,4 @@ https://ai.google.dev/gemini-api/docs/api-key
 
 After adding the API key, open the **`.ipynb` notebook file** in VS Code or Jupyter and run the cells.
 You will be able to run the file and test the **RAG pipeline** with your queries.
+
